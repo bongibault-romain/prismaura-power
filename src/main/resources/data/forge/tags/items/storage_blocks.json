@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:storage_blocks/prismaura",
+    "#forge:storage_blocks/ignisium",
+    "#forge:storage_blocks/infinitum",
+    "#forge:storage_blocks/ombrelia",
+    "#forge:storage_blocks/temporith",
+    "#forge:storage_blocks/tenebrisite"
+  ]
+}

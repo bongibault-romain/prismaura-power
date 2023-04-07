@@ -1,0 +1,17 @@
+{
+  "item.prismaurapower.prismaura_crystal": "Crystal de Prismaura",
+  "item.prismaurapower.tenebrisite_crystal": "Crystal de Tenebrisite",
+  "item.prismaurapower.temporith_crystal": "Crystal de Temporith",
+  "item.prismaurapower.ignisium_crystal": "Crystal d'Ignisium",
+  "item.prismaurapower.ombrelia_crystal": "Crystal d'Ombrelia",
+  "item.prismaurapower.infinitum_crystal": "§5Crystal d'Infinitum",
+
+  "block.prismaurapower.prismaura_block": "Bloc de Prismaura",
+  "block.prismaurapower.tenebrisite_block": "Bloc de Tenebrisite",
+  "block.prismaurapower.temporith_block": "Bloc de Temporith",
+  "block.prismaurapower.ignisium_block": "Bloc d'Ignisium",
+  "block.prismaurapower.ombrelia_block": "Bloc d'Ombrelia",
+  "block.prismaurapower.infinitum_block": "§5Bloc d'Infinitum",
+
+  "itemGroup.prismaura_resources_tab": "Ressources de Prismaura"
+}

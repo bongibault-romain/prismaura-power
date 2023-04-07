@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:crystals/prismaura"
+    }
+  },
+  "result": {
+    "item": "prismaurapower:prismaura_block"
+  }
+}

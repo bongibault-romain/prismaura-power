@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "prismaurapower:block/ombrelia_block"
+    }
+  }
+}

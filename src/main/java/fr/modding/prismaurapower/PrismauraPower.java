@@ -1,6 +1,8 @@
 package fr.modding.prismaurapower;
 
 import com.mojang.logging.LogUtils;
+import fr.modding.prismaurapower.block.PPBlocks;
+import fr.modding.prismaurapower.item.PPItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -30,6 +32,9 @@ public class PrismauraPower
     public PrismauraPower()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        PPItems.register(modEventBus);
+        PPBlocks.register(modEventBus);
 
         // Register the setup method for modloading
         modEventBus.addListener(this::setup);

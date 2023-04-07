@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "prismaurapower:prismaura_block",
+    "prismaurapower:tenebrisite_block",
+    "prismaurapower:temporith_block",
+    "prismaurapower:ignisium_block",
+    "prismaurapower:ombrelia_block",
+    "prismaurapower:infinitum_block"
+  ]
+}
