@@ -33,6 +33,19 @@ public class PPBlocks {
 
     public static final RegistryObject<Block> HEAVY_FRAME = registerBlock("heavy_frame", () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).requiresCorrectToolForDrops().strength(9f).destroyTime(3f)), PPCreativeTabs.TAB_RESOURCES);
 
+    public static final RegistryObject<Block> PRISMAURA_HEAVY_FRAME = registerBlock("prismaura_heavy_frame", () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).requiresCorrectToolForDrops().strength(9f).destroyTime(3f)), PPCreativeTabs.TAB_RESOURCES);
+
+    public static final RegistryObject<Block> TENEBRISITE_HEAVY_FRAME = registerBlock("tenebrisite_heavy_frame", () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).requiresCorrectToolForDrops().strength(9f).destroyTime(3f)), PPCreativeTabs.TAB_RESOURCES);
+
+    public static final RegistryObject<Block> TEMPORITH_HEAVY_FRAME = registerBlock("temporith_heavy_frame", () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).requiresCorrectToolForDrops().strength(9f).destroyTime(3f)), PPCreativeTabs.TAB_RESOURCES);
+
+    public static final RegistryObject<Block> IGNISIUM_HEAVY_FRAME = registerBlock("ignisium_heavy_frame", () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).requiresCorrectToolForDrops().strength(9f).destroyTime(3f)), PPCreativeTabs.TAB_RESOURCES);
+
+    public static final RegistryObject<Block> OMBRELIA_HEAVY_FRAME = registerBlock("ombrelia_heavy_frame", () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).requiresCorrectToolForDrops().strength(9f).destroyTime(3f)), PPCreativeTabs.TAB_RESOURCES);
+
+    public static final RegistryObject<Block> INFINITUM_HEAVY_FRAME = registerBlock("infinitum_heavy_frame", () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).requiresCorrectToolForDrops().strength(9f).destroyTime(3f)), PPCreativeTabs.TAB_RESOURCES);
+
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = PPBlocks.BLOCKS.register(name, block);
         PPBlocks.registerBlockItem(name, toReturn, tab);

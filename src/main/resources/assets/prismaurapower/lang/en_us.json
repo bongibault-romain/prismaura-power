@@ -14,6 +14,12 @@
   "block.prismaurapower.infinitum_block": "§5Block of Infinitum",
 
   "block.prismaurapower.heavy_frame": "Heavy Frame",
+  "block.prismaurapower.prismaura_heavy_frame": "Heavy Frame of Prismaura",
+  "block.prismaurapower.tenebrisite_heavy_frame": "Heavy Frame of Tenebrisite",
+  "block.prismaurapower.temporith_heavy_frame": "Heavy Frame of Temporith",
+  "block.prismaurapower.ignisium_heavy_frame": "Heavy Frame of Ignisium",
+  "block.prismaurapower.ombrelia_heavy_frame": "Heavy Frame of Ombrelia",
+  "block.prismaurapower.infinitum_heavy_frame": "Heavy Frame of Infinitum",
 
   "itemGroup.prismaura_resources_tab": "Prismaura's Resources"
 }
