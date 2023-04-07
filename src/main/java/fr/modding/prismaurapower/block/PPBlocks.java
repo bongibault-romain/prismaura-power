@@ -31,6 +31,8 @@ public class PPBlocks {
 
     public static final RegistryObject<Block> INFINITUM_BLOCK = registerBlock("infinitum_block", () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).requiresCorrectToolForDrops().strength(9f).destroyTime(3f)), PPCreativeTabs.TAB_RESOURCES);
 
+    public static final RegistryObject<Block> FRAME_BLOCK = registerBlock("frame_block", () -> new Block(BlockBehaviour.Properties.of(Material.WOOL).requiresCorrectToolForDrops().strength(9f).destroyTime(3f)), PPCreativeTabs.TAB_RESOURCES);
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = PPBlocks.BLOCKS.register(name, block);
         PPBlocks.registerBlockItem(name, toReturn, tab);
