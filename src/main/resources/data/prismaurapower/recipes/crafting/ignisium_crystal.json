@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/ignisium"
+    }
+  ],
+  "result": {
+    "tag": "prismaurapower:ignisium_crystal",
+    "count": 9
+  }
+}

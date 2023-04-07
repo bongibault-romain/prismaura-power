@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/ombrelia"
+    }
+  ],
+  "result": {
+    "item": "prismaurapower:ombrelia_crystal",
+    "count": 9
+  }
+}
