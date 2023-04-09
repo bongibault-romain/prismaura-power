@@ -7,10 +7,10 @@
   ],
   "key": {
     "A": {
-      "tag": "minecraft:obsidian"
+      "item": "minecraft:obsidian"
     },
     "X": {
-      "tag": "minecraft:iron_ingot"
+      "item": "minecraft:iron_ingot"
     }
   },
   "result": {
