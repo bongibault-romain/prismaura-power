@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:crystals/prismaura",
+    "#forge:crystals/ignisium",
+    "#forge:crystals/infinitum",
+    "#forge:crystals/ombrelia",
+    "#forge:crystals/temporith",
+    "#forge:crystals/tenebrisite"
+  ]
+}
