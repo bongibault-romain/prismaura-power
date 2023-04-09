@@ -7,6 +7,13 @@
     "prismaurapower:ignisium_block",
     "prismaurapower:ombrelia_block",
     "prismaurapower:infinitum_block",
-    "prismaurapower:compressed_iron_block"
+    "prismaurapower:compressed_iron_block",
+    "prismaurapower:heavy_frame",
+    "prismaurapower:ignisium_heavy_frame",
+    "prismaurapower:infinitum_heavy_frame",
+    "prismaurapower:ombrelia_heavy_frame",
+    "prismaurapower:prismaura_heavy_frame",
+    "prismaurapower:temporith_heavy_frame",
+    "prismaurapower:tenebrisite_heavy_frame"
   ]
 }
