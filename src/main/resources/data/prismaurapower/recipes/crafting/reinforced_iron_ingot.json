@@ -10,7 +10,7 @@
       "tag": "minecraft:obsidian"
     },
     "X": {
-      "tag": "forge:ingots/reinforced_iron"
+      "tag": "minecraft:iron_ingot"
     }
   },
   "result": {
