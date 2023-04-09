@@ -25,6 +25,8 @@ public class PPItems {
 
     public static final RegistryObject<Item> INFINITUM_CRYSTAL = PPItems.ITEMS.register("infinitum_crystal", () -> new Item(new Item.Properties().tab(PPCreativeTabs.TAB_RESOURCES)));
 
+    public static final RegistryObject<Item> REINFORCED_IRON_INGOT = PPItems.ITEMS.register("reinforced_iron_ingot", () -> new Item(new Item.Properties().tab(PPCreativeTabs.TAB_RESOURCES)));
+
     public static void register(IEventBus eventBus) {
         PPItems.ITEMS.register(eventBus);
     }
