@@ -21,5 +21,7 @@
   "block.prismaurapower.ombrelia_heavy_frame": "Heavy Frame of Ombrelia",
   "block.prismaurapower.infinitum_heavy_frame": "Heavy Frame of Infinitum",
 
+  "block.prismaurapower.compressed_iron_block": "Compressed Block of Iron",
+
   "itemGroup.prismaura_resources_tab": "Prismaura's Resources"
 }
