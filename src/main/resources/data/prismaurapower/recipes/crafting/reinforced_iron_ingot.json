@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XAX",
+    "XAX",
+    "XAX"
+  ],
+  "key": {
+    "A": {
+      "tag": "minecraft:obsidian"
+    },
+    "X": {
+      "tag": "forge:ingots/reinforced_iron"
+    }
+  },
+  "result": {
+    "item": "prismaurapower:reinforced_iron_ingot"
+  }
+}

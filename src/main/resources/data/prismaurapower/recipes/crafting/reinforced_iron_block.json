@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:ingots/reinforced_iron"
+    }
+  },
+  "result": {
+    "item": "prismaurapower:reinforced_iron_block"
+  }
+}
