@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "prismaurapower:block/reinforced_iron_block"
+    }
+  }
+}

@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "prismaurapower:compressed_iron_block"
+          "name": "prismaurapower:reinforced_iron_block"
         }
       ],
       "conditions": [
