@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "prismaurapower:block/prismatic_forge"
+    }
+  }
+}

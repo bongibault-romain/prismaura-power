@@ -47,6 +47,8 @@ public class PPBlocks {
 
     public static final RegistryObject<Block> REINFORCED_IRON_BLOCK = registerBlock("reinforced_iron_block", () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).requiresCorrectToolForDrops().strength(9f).destroyTime(3f)), PPCreativeTabs.TAB_RESOURCES);
 
+    public static final RegistryObject<Block> PRISMATIC_FORGE = registerBlock("prismatic_forge", PrismaticForge::new, PPCreativeTabs.TAB_RESOURCES);
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = PPBlocks.BLOCKS.register(name, block);
         PPBlocks.registerBlockItem(name, toReturn, tab);
