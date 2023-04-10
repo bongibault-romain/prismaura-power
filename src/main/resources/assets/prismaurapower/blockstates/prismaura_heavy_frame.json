@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "prismaurapower:block/prsheavy_frame"
+      "model": "prismaurapower:block/prismaura_heavy_frame"
     }
   }
 }
