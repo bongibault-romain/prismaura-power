@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "DCD",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:ingots/reinforced_iron"
+    },
+    "B": {
+      "tag": "forge:storage_blocks/reinforced_iron"
+    },
+    "C": {
+      "item": "prismaurapower:heavy_frame"
+    },
+    "D": {
+      "tag": "forge:crystals/ignisium"
+    }
+  },
+  "result": {
+    "item": "prismaurapower:ignisium_heavy_frame"
+  }
+}
