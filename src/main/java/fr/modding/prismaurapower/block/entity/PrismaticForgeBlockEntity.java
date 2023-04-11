@@ -6,7 +6,6 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.Containers;
 import net.minecraft.world.MenuProvider;
@@ -28,7 +27,6 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.Optional;
-import java.util.Random;
 
 public class PrismaticForgeBlockEntity extends BlockEntity implements MenuProvider {
 
@@ -36,7 +34,14 @@ public class PrismaticForgeBlockEntity extends BlockEntity implements MenuProvid
         return 22;
     }
 
-    private ItemStackHandler itemHandler = new ItemStackHandler(PrismaticForgeBlockEntity.getInventorySize()) {
+    private final ItemStackHandler itemHandler = new ItemStackHandler(PrismaticForgeBlockEntity.getInventorySize() - 1) {
+        @Override
+        protected void onContentsChanged(int slot) {
+            setChanged();
+        }
+    };
+
+    private final ItemStackHandler outputHandler = new ItemStackHandler(1) {
         @Override
         protected void onContentsChanged(int slot) {
             setChanged();
