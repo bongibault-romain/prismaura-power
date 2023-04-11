@@ -1,12 +1,19 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "forge:storage_blocks/prismaura"
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "B B",
+    "ABA"
   ],
+  "key": {
+    "A": {
+      "tag": "forge:gems/lapis"
+    },
+    "B": {
+      "tag": "forge:gems/diamond"
+    }
+  },
   "result": {
-    "item": "prismaurapower:prismaura_crystal",
-    "count": 9
+    "item": "prismaurapower:prismaura_block"
   }
 }
