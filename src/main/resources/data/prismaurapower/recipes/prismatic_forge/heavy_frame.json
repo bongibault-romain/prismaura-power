@@ -18,7 +18,7 @@
       "tag": "forge:obsidian"
     }
   },
-  "infusion": {
+  "infuser": {
     "item": "forge:gems/diamond"
   },
   "result": {

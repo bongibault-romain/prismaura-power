@@ -21,7 +21,7 @@
       "tag": "forge:ingots/reinforced_iron"
     }
   },
-  "infusion": {
+  "infuser": {
     "item": "prismaurapower:heavy_frame"
   },
   "result": {
