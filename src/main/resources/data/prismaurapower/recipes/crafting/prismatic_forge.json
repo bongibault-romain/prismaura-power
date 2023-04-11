@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "BDB"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:ingots/netherite"
+    },
+    "B": {
+      "tag": "forge:storage_blocks/reinforced_iron"
+    },
+    "C": {
+      "item": "minecraft:crafting_table"
+    },
+    "D": {
+      "tag": "forge:storage_blocks/prismaura"
+    }
+  },
+  "result": {
+    "item": "prismaurapower:ignisium_block"
+  }
+}
