@@ -34,7 +34,7 @@ public class PrismaticForgeBlockEntity extends BlockEntity implements MenuProvid
         return 22;
     }
 
-    private final ItemStackHandler itemHandler = new ItemStackHandler(PrismaticForgeBlockEntity.getInventorySize() - 1) {
+    private final ItemStackHandler itemHandler = new ItemStackHandler(PrismaticForgeBlockEntity.getInventorySize()) {
         @Override
         protected void onContentsChanged(int slot) {
             setChanged();
