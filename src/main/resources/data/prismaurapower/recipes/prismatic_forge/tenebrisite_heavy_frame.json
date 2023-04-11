@@ -22,7 +22,7 @@
     }
   },
   "infuser": {
-    "item": "prismaurapower:heavy_frame"
+    "tag": "prismaurapower:prismaura_heavy_frame"
   },
   "result": {
     "item": "prismaurapower:tenebrisite_heavy_frame",
