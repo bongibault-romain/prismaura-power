@@ -8,7 +8,6 @@ import fr.modding.prismaurapower.recipe.PPSerializers;
 import fr.modding.prismaurapower.screen.PPMenuTypes;
 import fr.modding.prismaurapower.screen.screen.PrismaticForgeScreen;
 import net.minecraft.client.gui.screens.MenuScreens;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -49,8 +48,7 @@ public class PrismauraPower
     private void setup(final FMLCommonSetupEvent event)
     {
         // some preinit code
-        LOGGER.info("HELLO FROM PREINIT");
-        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+        LOGGER.info("[Init] Prismaura Power");
     }
 
     private void clientSetup(final FMLClientSetupEvent  event) {

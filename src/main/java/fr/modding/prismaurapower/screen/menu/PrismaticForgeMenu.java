@@ -40,32 +40,26 @@ public class PrismaticForgeMenu extends AbstractContainerMenu {
 
         this.blockEntity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY).ifPresent(handler -> {
             this.addSlot(new SlotItemHandler(handler, 0, 14, 17));
-            this.addSlot(new SlotItemHandler(handler, 1, 32, 17));
-            this.addSlot(new SlotItemHandler(handler, 2, 84, 17));
-            this.addSlot(new SlotItemHandler(handler, 3, 102, 17));
-
-            this.addSlot(new SlotItemHandler(handler, 4, 14, 35));
-            this.addSlot(new SlotItemHandler(handler, 5, 40, 43));
-            this.addSlot(new SlotItemHandler(handler, 6, 58, 43));
-            this.addSlot(new SlotItemHandler(handler, 7, 76, 43));
-            this.addSlot(new SlotItemHandler(handler, 8, 102, 35));
-
-            this.addSlot(new SlotItemHandler(handler, 9, 40, 61));
-            this.addSlot(new SlotItemHandler(handler, 10, 76, 61));
-
-            this.addSlot(new SlotItemHandler(handler, 11, 14, 87));
-            this.addSlot(new SlotItemHandler(handler, 12, 40, 79));
-            this.addSlot(new SlotItemHandler(handler, 13, 58, 79));
-            this.addSlot(new SlotItemHandler(handler, 14, 76, 79));
-            this.addSlot(new SlotItemHandler(handler, 15, 102, 87));
-
-            this.addSlot(new SlotItemHandler(handler, 16, 14, 105));
-            this.addSlot(new SlotItemHandler(handler, 17, 32, 105));
-            this.addSlot(new SlotItemHandler(handler, 18, 84, 105));
-            this.addSlot(new SlotItemHandler(handler, 19, 102, 105));
-
-            this.addSlot(new SlotItemHandler(handler, 20, 160, 32));
-
+            this.addSlot(new SlotItemHandler(handler,  1, 32, 17));
+            this.addSlot(new SlotItemHandler(handler,  2, 84, 17));
+            this.addSlot(new SlotItemHandler(handler,  3, 102, 17));
+            this.addSlot(new SlotItemHandler(handler,  4, 14, 35));
+            this.addSlot(new SlotItemHandler(handler,  5, 40, 43));
+            this.addSlot(new SlotItemHandler(handler,  6, 58, 43));
+            this.addSlot(new SlotItemHandler(handler,  7, 76, 43));
+            this.addSlot(new SlotItemHandler(handler,  8, 102, 35));
+            this.addSlot(new SlotItemHandler(handler,  9, 40, 61));
+            this.addSlot(new SlotItemHandler(handler,  10, 76, 61));
+            this.addSlot(new SlotItemHandler(handler,  11, 14, 87));
+            this.addSlot(new SlotItemHandler(handler,  12, 40, 79));
+            this.addSlot(new SlotItemHandler(handler,  13, 58, 79));
+            this.addSlot(new SlotItemHandler(handler,  14, 76, 79));
+            this.addSlot(new SlotItemHandler(handler,  15, 102, 87));
+            this.addSlot(new SlotItemHandler(handler,  16, 14, 105));
+            this.addSlot(new SlotItemHandler(handler,  17, 32, 105));
+            this.addSlot(new SlotItemHandler(handler,  18, 84, 105));
+            this.addSlot(new SlotItemHandler(handler,  19, 102, 105));
+            this.addSlot(new SlotItemHandler(handler,  20, 160, 32));
             this.addSlot(new ResultSlot(handler, 21, 160, 89));
         });
 
@@ -158,5 +152,9 @@ public class PrismaticForgeMenu extends AbstractContainerMenu {
 
     public ContainerData getData() {
         return data;
+    }
+
+    public static int getVanillaSlotCount() {
+        return VANILLA_SLOT_COUNT;
     }
 }

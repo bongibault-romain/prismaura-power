@@ -30,11 +30,13 @@ public class PrismaticForgeRecipeCategory implements IRecipeCategory<PrismaticFo
         this.icon = helper.createDrawableIngredient(VanillaTypes.ITEM_STACK, new ItemStack(PPBlocks.PRISMATIC_FORGE.get()));
     }
 
+    @SuppressWarnings("removal")
     @Override
     public @NotNull ResourceLocation getUid() {
         return UID;
     }
 
+    @SuppressWarnings("removal")
     @Override
     public @NotNull Class<? extends PrismaticForgeRecipe> getRecipeClass() {
         return PrismaticForgeRecipe.class;
@@ -89,5 +91,8 @@ public class PrismaticForgeRecipeCategory implements IRecipeCategory<PrismaticFo
 
         builder.addSlot(RecipeIngredientRole.INPUT, 151, 20).addIngredients(recipe.getInfuser());
         builder.addSlot(RecipeIngredientRole.OUTPUT, 151, 77).addItemStack(recipe.getOutput());
+
+        builder.moveRecipeTransferButton(165, 121);
     }
+
 }
