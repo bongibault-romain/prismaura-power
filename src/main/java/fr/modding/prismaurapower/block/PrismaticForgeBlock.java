@@ -66,7 +66,7 @@ public class PrismaticForgeBlock extends BaseEntityBlock {
     @Nullable
     @Override
     public <T extends BlockEntity> BlockEntityTicker<T> getTicker(@NotNull Level pLevel, @NotNull BlockState pState, BlockEntityType<T> pBlockEntityType) {
-        return createTickerHelper(pBlockEntityType, PPBlockEntities.PRISMATIC_FORGE_BLOCK_ENTITY.get(),
+        return pLevel.isClientSide() ? null : createTickerHelper(pBlockEntityType, PPBlockEntities.PRISMATIC_FORGE_BLOCK_ENTITY.get(),
                 PrismaticForgeBlockEntity::tick);
     }
 }
