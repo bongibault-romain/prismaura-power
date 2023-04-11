@@ -1,0 +1,21 @@
+{
+  "type": "prismaurapower:prismatic_forge",
+  "pattern": [
+    "AAAA",
+    "AAAAA",
+    "AA",
+    "AAAAA",
+    "AAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "prismaurapower:reinforced_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "prismaurapower:reinforced_iron_block"
+  },
+  "infuser": {
+    "item": "minecraft:dirt"
+  }
+}

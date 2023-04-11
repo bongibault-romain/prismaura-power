@@ -1,0 +1,27 @@
+{
+  "type": "prismaurapower:prismatic_forge",
+  "pattern": [
+    "ACBA",
+    " A AA",
+    "AA",
+    "AA A",
+    "B BC"
+  ],
+  "key": {
+    "A": {
+      "item": "prismaurapower:reinforced_iron_ingot"
+    },
+    "B": {
+      "tag": "minecraft:planks"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "prismaurapower:reinforced_iron_block"
+  },
+  "infuser": {
+    "item": "minecraft:dirt"
+  }
+}
