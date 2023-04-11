@@ -1,0 +1,31 @@
+{
+  "type": "prismaurapower:prismatic_forge",
+  "pattern": [
+    "ABBA",
+    "BCDCB",
+    "DD",
+    "BCDCB",
+    "ABBA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:storage_blocks/ombrelia"
+    },
+    "B": {
+      "tag": "forge:crystals/ombrelia"
+    },
+    "C": {
+      "tag": "forge:storage_blocks/reinforced_iron"
+    },
+    "D": {
+      "tag": "forge:ingots/reinforced_iron"
+    }
+  },
+  "infusion": {
+    "item": "prismaurapower:heavy_frame"
+  },
+  "result": {
+    "item": "prismaurapower:ombrelia_heavy_frame",
+    "count": 1
+  }
+}

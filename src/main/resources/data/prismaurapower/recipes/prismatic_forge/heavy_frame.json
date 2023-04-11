@@ -1,21 +1,28 @@
 {
   "type": "prismaurapower:prismatic_forge",
   "pattern": [
-    "AAAA",
-    "AAAAA",
-    "AA",
-    "AAAAA",
-    "AAAA"
+    "ABBA",
+    "BACAB",
+    "CC",
+    "BACAB",
+    "ABBA"
   ],
   "key": {
     "A": {
-      "item": "prismaurapower:reinforced_iron_ingot"
+      "tag": "forge:storage_blocks/reinforced_iron"
+    },
+    "B": {
+      "tag": "forge:storage_blocks/iron"
+    },
+    "C": {
+      "tag": "forge:obsidian"
     }
   },
-  "result": {
-    "item": "prismaurapower:reinforced_iron_block"
+  "infusion": {
+    "item": "forge:gems/diamond"
   },
-  "infuser": {
-    "item": "minecraft:dirt"
+  "result": {
+    "item": "prismaurapower:heavy_frame",
+    "count": 1
   }
 }
