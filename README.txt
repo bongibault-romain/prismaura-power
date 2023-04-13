@@ -1,46 +1,26 @@
+# PRISMAURA POWER
 
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+## About
+A mod about ores and power generation.
 
-Note also that the patches are built against "un-renamed" MCP source code (aka
-SRG Names) - this means that you will not be able to read them directly against
-normal code.
+## Contacts
+- [Discord](https://discord.gg/CqRmdM6Ert)
 
-Setup Process:
-==============================
+## License
 
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
+## Installation
+You install this mod by putting it into the `minecraft/mods/` folder. It has no additional hard dependencies.
 
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: `gradlew genEclipseRuns` (`./gradlew genEclipseRuns` if you are on Mac/Linux)
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run `gradlew eclipse` to generate the project.
+## Issues
+Prismaura Power crashing, have a suggestion, found a bug? Create an issue now!
 
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `gradlew genIntellijRuns` (`./gradlew genIntellijRuns` if you are on Mac/Linux)
-4. Refresh the Gradle Project in IDEA if required.
+1.  Make sure your issue has not already been answered or fixed and you are using the latest version. Also think about whether your issue is a valid one before submitting it.
+    -   If it is already possible with vanilla and Prismaura Power itself, the suggestion will be considered invalid.
+    -   Asking for a smaller version, more compact version, or more efficient version of something will also be considered invalid.
+2.  Go to  [the issues page](https://github.com/bongibault-romain/prismaura-power/issues)  and click  [new issue](https://github.com/bongibault-romain/prismaura-power/issues/new)
+3.  If applicable, use on of the provided templates. It will also contain further details about required or useful information to add.
+4.  Click  `Submit New Issue`, and wait for feedback!
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can 
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+Providing as many details as possible does help us to find and resolve the issue faster and also you getting a fixed version as fast as possible.
 
-Mapping Names:
-=============================
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
-
-Additional Resources: 
-=========================
-Community Documentation: http://mcforge.readthedocs.io/en/latest/gettingstarted/  
-LexManos' Install Video: https://www.youtube.com/watch?v=8VEdtQLuLO0  
-Forge Forum: https://forums.minecraftforge.net/  
-Forge Discord: https://discord.gg/UvedJ9m  
+Please note that we might close any issue not matching these requirements.
